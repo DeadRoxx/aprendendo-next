@@ -1,5 +1,13 @@
+import Link from "next/link";
+
 const Home = () => {
-  return <div>Vercel Rocks</div>
+  return (
+    <>
+      <Link href="/About">
+        <a>Link para 'sobre'</a>
+      </Link>
+    </>
+  );
 }
 
 export default Home;
